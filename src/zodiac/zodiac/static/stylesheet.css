@@ -1,0 +1,83 @@
+body {
+	background: #999;
+	color: FFF;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 16px;
+	margin: 0px;
+	padding: 0px
+}
+h1, h2 {
+	text-shadow: 3px 3px 3px #AAA;
+}
+h3 {
+	font-size: 36px;
+}
+h4 {
+	font-size: 14px;
+}
+h6 {
+	font-size: 30px;
+}
+header, section, footer {
+	background: #000;
+	border-radius: 10px;
+	box-shadow: 5px 5px 3px #333;
+	margin: 10px auto 0px auto;
+	padding: 10px;
+	text-align: center;
+	width: 780px;
+}
+header {
+	height: 150px;
+}
+section {
+	overflow: hidden;
+}
+section p {
+	padding: 5px 5px 5px 30px;
+}
+footer {
+	height: 150px;
+	margin: 10px auto 10px auto;
+}
+nav {
+	margin: 24px 0px 0px 340px;
+}
+nav li {
+	float: left;
+	list-style: none;
+}
+nav li a {
+	background: #000;
+	font-weight: bold;
+	padding: 10px;
+	text-decoration: none;
+	color: #FFF;
+	transition: all 1s;
+}
+nav li a:hover {
+	background: #FFF;
+	color: #000;
+}
+select {
+	margin: 10px 50px 10px 5px;
+}
+#inferior {
+	margin-top: -50px;
+}
+#hesq, #hdre {
+	float: left;
+	height: 155px;
+	width: auto;
+}
+#hdre {
+	float: right;
+}
+.zimg {
+	height: 340px;
+	width: auto;
+}
+#iesq {
+	float: left;
+	width: 400px;
+}
